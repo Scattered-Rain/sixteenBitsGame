@@ -7,9 +7,8 @@ import com.badlogic.gdx.Input.Keys;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-@AllArgsConstructor
 /** Enumeration of possible controller inputs */
-public enum Input {
+@AllArgsConstructor public enum Input {
 	
 	UP(Keys.W),
 	RIGHT(Keys.D),
